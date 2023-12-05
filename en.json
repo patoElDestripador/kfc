@@ -1,0 +1,54 @@
+{
+    "menu": {
+        "burgers": [
+            {
+                "name": "BBQ Crunch",
+                "price": "$2.23",
+                "description": "1 BBQ Crunch Sandwich (1 Breaded Chicken Fillet)",
+                "img": "./img/hamburguesa-1.webp"
+            },
+            {
+                "name": "Kentucky Sandwich",
+                "price": "$3.98",
+                "description": "1 Kentucky Burger / Sandwich (1 Breaded Chicken Breast Fillet, Pickles, Premium Mayonnaise, and Butter)",
+                "img": "./img/hamburguesa-2.webp"
+            },
+            {
+                "name": "BBQ Crunch Combo",
+                "price": "$3.98",
+                "description": "1 BBQ Crunch Sandwich (1 Breaded Chicken Fillet) + 1 Small Fries + 1 Soda PET 400ml",
+                "img": "./img/hamburguesa-3.webp"
+            },
+            {
+                "name": "Kentucky Coronel Sandwich",
+                "price": "$4.23",
+                "description": "1 Kentucky Coronel Burger / Sandwich (1 Breaded Chicken Breast Fillet, Coleslaw Salad, BBQ, and Butter)",
+                "img": "./img/hamburguesa-4.webp"
+            },
+            {
+                "name": "Kentucky Sandwich Combo",
+                "price": "$5.48",
+                "description": "1 Kentucky Burger / Sandwich (1 Breaded Chicken Breast Fillet, Pickles, Premium Mayonnaise, and Butter) + 1 Small Fries + 1 Soda PET 400ml",
+                "img": "./img/hamburguesa-5.webp"
+            },
+            {
+                "name": "Kentucky Coronel Combo",
+                "price": "$5.73",
+                "description": "1 Kentucky Coronel Burger / Sandwich (1 Breaded Chicken Breast Fillet, Coleslaw Salad, BBQ, and Butter) + 1 Small Fries + 1 Soda PET 400ml",
+                "img": "./img/hamburguesa-6.webp"
+            },
+            {
+                "name": "Crispy BBQ Sandwich",
+                "price": "$5.98",
+                "description": "1 Crispy BBQ Sandwich (1 Extra Large Breaded Chicken Fillet, Triple Breaded, Crispy Onion, Bacon, Cheddar Cheese, BBQ Sauce)",
+                "img": "./img/hamburguesa-7.webp"
+            },
+            {
+                "name": "Crispy BBQ Sandwich Combo",
+                "price": "$7.48",
+                "description": "1 Crispy BBQ Sandwich (1 Extra Large Breaded Chicken Fillet, Triple Breaded, Crispy Onion, Bacon, Cheddar Cheese + BBQ Sauce) + 1 Small Fries + 1 Soda PET 400ml",
+                "img": "./img/hamburguesa-8.webp"
+            }
+        ]
+    }
+}

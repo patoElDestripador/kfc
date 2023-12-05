@@ -1,0 +1,54 @@
+{
+    "menu": {
+        "burgers": [
+            {
+                "name": "BBQ Crunch",
+                "price": "€ 8,90",
+                "description": "1 Sandwich BBQ Crunch (1 Filet de poulet pané)",
+                "img": "./img/burger-1.webp"
+            },
+            {
+                "name": "Kentucky Sandwich",
+                "price": "€ 15,90",
+                "description": "1 Burger / Sandwich Kentucky (1 Filet de poitrine de poulet pané, Cornichons, Mayonnaise premium et Beurre)",
+                "img": "./img/burger-2.webp"
+            },
+            {
+                "name": "Combo BBQ Crunch",
+                "price": "€ 15,90",
+                "description": "1 Sandwich BBQ Crunch (1 Filet de poulet pané) + 1 Petite portion de frites + 1 Soda PET 400ml",
+                "img": "./img/burger-3.webp"
+            },
+            {
+                "name": "Kentucky Colonel Sandwich",
+                "price": "€ 16,90",
+                "description": "1 Burger / Sandwich Kentucky Colonel (1 Filet de poitrine de poulet pané, Salade de chou Coleslaw, BBQ et Beurre)",
+                "img": "./img/burger-4.webp"
+            },
+            {
+                "name": "Combo Kentucky Sandwich",
+                "price": "€ 21,90",
+                "description": "1 Burger / Sandwich Kentucky (1 Filet de poitrine de poulet pané, Cornichons, Mayonnaise premium et Beurre) + 1 Petite portion de frites + 1 Soda PET 400ml",
+                "img": "./img/burger-5.webp"
+            },
+            {
+                "name": "Combo Kentucky Colonel Sandwich",
+                "price": "€ 22,90",
+                "description": "1 Burger / Sandwich Kentucky Colonel (1 Filet de poitrine de poulet pané, Salade de chou Coleslaw, BBQ et Beurre) + 1 Petite portion de frites + 1 Soda PET 400ml",
+                "img": "./img/burger-6.webp"
+            },
+            {
+                "name": "Crispy BBQ Sandwich",
+                "price": "€ 23,90",
+                "description": "1 Sandwich Crispy BBQ (1 Filet de poitrine extra large, Triple pané, Oignon croustillant, Bacon, Fromage cheddar, Sauce BBQ)",
+                "img": "./img/burger-7.webp"
+            },
+            {
+                "name": "Combo Crispy BBQ Sandwich",
+                "price": "€ 29,90",
+                "description": "1 Sandwich Crispy BBQ (1 Filet de poitrine extra large, Triple pané, Oignon croustillant, Bacon, Fromage cheddar + Sauce BBQ) + 1 Petite portion de frites + 1 Soda PET 400ml",
+                "img": "./img/burger-8.webp"
+            }
+        ]
+    }
+}
