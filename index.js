@@ -38,21 +38,29 @@ function generarCards(cards){
 
 function cambiarColor(){
     let valor = document.getElementById("color").value
+    let body = document.getElementById("bodry").classList
+    let idioma = document.getElementById("idioma").classList
+    let color = document.getElementById("color").classList
+    let contenedor = document.getElementById("contenedor").classList
     console.log(valor)
     if(valor == "dark"){
-        document.getElementById("bodry").classList.replace("bg-light",`bg-${valor}`)
-        document.getElementById("bodry").classList.replace("text-dark",`text-light`)
-        document.getElementById("idioma").classList.replace("bg-light",`bg-${valor}`)
-        document.getElementById("idioma").classList.replace("text-dark",`text-light`)
-        document.getElementById("color").classList.replace("bg-light",`bg-${valor}`)
-        document.getElementById("color").classList.replace("text-dark",`text-light`)
-        document.getElementById("contenedor").classList.replace("bg-light",`bg-${valor}`)
-        document.getElementById("contenedor").classList.replace("text-dark",`text-light`)
+        body.replace("bg-light",`bg-${valor}`);
+        body.replace("text-dark",`text-light`);
+        color.replace("bg-light",`bg-${valor}`);
+        color.replace("text-dark",`text-light`);
+        idioma.replace("bg-light",`bg-${valor}`);
+        idioma.replace("text-dark",`text-light`);
+        contenedor.replace("bg-light",`bg-${valor}`);
+        contenedor.replace("text-dark",`text-light`);
     }else{
-        document.getElementById("bodry").classList.replace("bg-dark",`bg-${valor}`).replace("text-dark",`text-${valor}`)
-        document.getElementById("idioma").classList.replace("bg-dark",`bg-${valor}`).replace("text-dark",`text-${valor}`)
-        document.getElementById("color").classList.replace("bg-dark",`bg-${valor}`).replace("text-dark",`text-${valor}`)
-        document.getElementById("contenedor").classList.replace("bg-dark",`bg-${valor}`).replace("text-dark",`text-${valor}`)
+        body.replace("bg-dark",`bg-${valor}`);
+        body.replace("text-light",`text-dark`);
+        color.replace("bg-dark",`bg-${valor}`);
+        color.replace("text-light",`text-dark`);
+        idioma.replace("bg-dark",`bg-${valor}`);
+        idioma.replace("text-light",`text-dark`);
+        contenedor.replace("bg-dark",`bg-${valor}`);
+        contenedor.replace("text-light",`text-dark`);
     }
 
 
@@ -68,7 +76,7 @@ function cambiarIdioma(){
             console.log("entro a ingles",ingles.menu.burgers)
             generarCards(ingles.menu.burgers);
             break;
-            case 2:
+            case 0:
             console.log("entro a espñaol",espanol.menu.burgers)
             generarCards(espanol.menu.burgers);
             break;
