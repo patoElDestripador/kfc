@@ -52,60 +52,61 @@ var ingles = {
         ]
     }
 };
-var español = {
+var espanol = {
     "menu": {
         "burgers": [
             {
                 "name": "BBQ Crunch",
                 "price": "$ 8,900",
-                "description": "1 BBQ Crunch Sandwich (1 Breaded Chicken Fillet)",
+                "description": "1 Sandwich BBQ Crunch (1 filete de pollo empanizado)",
                 "img": "./img/hamburguesa-1.webp"
             },
             {
                 "name": "Kentucky Sandwich",
                 "price": "$ 15,900",
-                "description": "1 Kentucky Burger / Sandwich (1 Breaded Chicken Breast Fillet, Pickles, Premium Mayonnaise, and Butter)",
+                "description": "1 Hamburguesa/Sandwich Kentucky (1 filete de pechuga de pollo empanizado, pepinillos, mayonesa premium y mantequilla)",
                 "img": "./img/hamburguesa-2.webp"
             },
             {
-                "name": "BBQ Crunch Combo",
+                "name": "Combo BBQ Crunch",
                 "price": "$ 15,900",
-                "description": "1 BBQ Crunch Sandwich (1 Breaded Chicken Fillet) + 1 Small Fries + 1 Soda PET 400ml",
+                "description": "1 Sandwich BBQ Crunch (1 filete de pollo empanizado) + 1 Porción Pequeña de Papas Fritas + 1 Soda PET 400 ml",
                 "img": "./img/hamburguesa-3.webp"
             },
             {
                 "name": "Kentucky Coronel Sandwich",
                 "price": "$ 16,900",
-                "description": "1 Kentucky Coronel Burger / Sandwich (1 Breaded Chicken Breast Fillet, Coleslaw Salad, BBQ, and Butter)",
+                "description": "1 Hamburguesa/Sandwich Kentucky Coronel (1 filete de pechuga de pollo empanizado, ensalada de col, BBQ y mantequilla)",
                 "img": "./img/hamburguesa-4.webp"
             },
             {
-                "name": "Kentucky Sandwich Combo",
+                "name": "Combo Kentucky Sandwich",
                 "price": "$ 21,900",
-                "description": "1 Kentucky Burger / Sandwich (1 Breaded Chicken Breast Fillet, Pickles, Premium Mayonnaise, and Butter) + 1 Small Fries + 1 Soda PET 400ml",
+                "description": "1 Hamburguesa/Sandwich Kentucky (1 filete de pechuga de pollo empanizado, pepinillos, mayonesa premium y mantequilla) + 1 Porción Pequeña de Papas Fritas + 1 Soda PET 400 ml",
                 "img": "./img/hamburguesa-5.webp"
             },
             {
-                "name": "Kentucky Coronel Combo",
+                "name": "Combo Kentucky Coronel",
                 "price": "$ 22,900",
-                "description": "1 Kentucky Coronel Burger / Sandwich (1 Breaded Chicken Breast Fillet, Coleslaw Salad, BBQ, and Butter) + 1 Small Fries + 1 Soda PET 400ml",
+                "description": "1 Hamburguesa/Sandwich Kentucky Coronel (1 filete de pechuga de pollo empanizado, ensalada de col, BBQ y mantequilla) + 1 Porción Pequeña de Papas Fritas + 1 Soda PET 400 ml",
                 "img": "./img/hamburguesa-6.webp"
             },
             {
                 "name": "Crispy BBQ Sandwich",
                 "price": "$ 23,900",
-                "description": "1 Crispy BBQ Sandwich (1 Extra Large Breaded Chicken Fillet, Triple Breaded, Crispy Onion, Bacon, Cheddar Cheese, BBQ Sauce)",
+                "description": "1 Sandwich Crispy BBQ (1 filete de pollo empanizado extra grande, triple empanizado, cebolla crujiente, tocino, queso cheddar, salsa BBQ)",
                 "img": "./img/hamburguesa-7.webp"
             },
             {
-                "name": "Crispy BBQ Sandwich Combo",
+                "name": "Combo Crispy BBQ Sandwich",
                 "price": "$ 29,900",
-                "description": "1 Crispy BBQ Sandwich (1 Extra Large Breaded Chicken Fillet, Triple Breaded, Crispy Onion, Bacon, Cheddar Cheese + BBQ Sauce) + 1 Small Fries + 1 Soda PET 400ml",
+                "description": "1 Sandwich Crispy BBQ (1 filete de pollo empanizado extra grande, triple empanizado, cebolla crujiente, tocino, queso cheddar + salsa BBQ) + 1 Porción Pequeña de Papas Fritas + 1 Soda PET 400 ml",
                 "img": "./img/hamburguesa-8.webp"
             }
         ]
     }
 }
+
 var frances = {
     "menu": {
         "burgers": [
@@ -113,49 +114,49 @@ var frances = {
                 "name": "BBQ Crunch",
                 "price": "€ 8,90",
                 "description": "1 Sandwich BBQ Crunch (1 Filet de poulet pané)",
-                "img": "./img/burger-1.webp"
+                "img": "./img/hamburguesa-1.webp"
             },
             {
                 "name": "Kentucky Sandwich",
                 "price": "€ 15,90",
                 "description": "1 Burger / Sandwich Kentucky (1 Filet de poitrine de poulet pané, Cornichons, Mayonnaise premium et Beurre)",
-                "img": "./img/burger-2.webp"
+                "img": "./img/hamburguesa-2.webp"
             },
             {
                 "name": "Combo BBQ Crunch",
                 "price": "€ 15,90",
                 "description": "1 Sandwich BBQ Crunch (1 Filet de poulet pané) + 1 Petite portion de frites + 1 Soda PET 400ml",
-                "img": "./img/burger-3.webp"
+                "img": "./img/hamburguesa-3.webp"
             },
             {
                 "name": "Kentucky Colonel Sandwich",
                 "price": "€ 16,90",
                 "description": "1 Burger / Sandwich Kentucky Colonel (1 Filet de poitrine de poulet pané, Salade de chou Coleslaw, BBQ et Beurre)",
-                "img": "./img/burger-4.webp"
+                "img": "./img/hamburguesa-4.webp"
             },
             {
                 "name": "Combo Kentucky Sandwich",
                 "price": "€ 21,90",
                 "description": "1 Burger / Sandwich Kentucky (1 Filet de poitrine de poulet pané, Cornichons, Mayonnaise premium et Beurre) + 1 Petite portion de frites + 1 Soda PET 400ml",
-                "img": "./img/burger-5.webp"
+                "img": "./img/hamburguesa-5.webp"
             },
             {
                 "name": "Combo Kentucky Colonel Sandwich",
                 "price": "€ 22,90",
                 "description": "1 Burger / Sandwich Kentucky Colonel (1 Filet de poitrine de poulet pané, Salade de chou Coleslaw, BBQ et Beurre) + 1 Petite portion de frites + 1 Soda PET 400ml",
-                "img": "./img/burger-6.webp"
+                "img": "./img/hamburguesa-6.webp"
             },
             {
                 "name": "Crispy BBQ Sandwich",
                 "price": "€ 23,90",
                 "description": "1 Sandwich Crispy BBQ (1 Filet de poitrine extra large, Triple pané, Oignon croustillant, Bacon, Fromage cheddar, Sauce BBQ)",
-                "img": "./img/burger-7.webp"
+                "img": "./img/hamburguesa-7.webp"
             },
             {
                 "name": "Combo Crispy BBQ Sandwich",
                 "price": "€ 29,90",
                 "description": "1 Sandwich Crispy BBQ (1 Filet de poitrine extra large, Triple pané, Oignon croustillant, Bacon, Fromage cheddar + Sauce BBQ) + 1 Petite portion de frites + 1 Soda PET 400ml",
-                "img": "./img/burger-8.webp"
+                "img": "./img/hamburguesa-8.webp"
             }
         ]
     }

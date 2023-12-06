@@ -7,20 +7,20 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
 </head>
 <body id="bodry" class="bg-light">
-    <section> 
+   <section> 
         <div id="contenedor" class="container bg-light">
             <div class="row mt-3">
                 <div class="col-6">
-                    <select id="idioma"  class="form-select bg-light" aria-label="Default select example" onchange="cambiarIdioma()">
+                    <select id="idioma"  class="form-select bg-light text-dark " aria-label="Default select example" onchange="cambiarIdioma()">
                         <option selected>Idioma</option>
-                        <option value="1" onselect=>Ingles</option>
-                        <option value="2" onselect=>Español</option>
-                        <option value="3" onselect=>Frances</option>
-                        <option value="4" onselect=>Japones</option>
+                        <option value="1">Ingles</option>
+                        <option value="2">Español</option>
+                        <option value="3">Frances</option>
+                        <option value="4">Japones</option>
                     </select>
                 </div>
                 <div class="col-6">
-                    <select  id="color"  class="form-select bg-light" aria-label="Default select example" onchange="cambiarColor()">
+                    <select  id="color"  class="form-select bg-light text-dark " aria-label="Default select example" onchange="cambiarColor()">
                         <option selected>Color</option>
                         <option value="dark">Oscuro</option>
                         <option value="light">Claro</option>
@@ -49,8 +49,11 @@
                 </ul>
             </footer>
         </div>
-    </section>
+    
+    
+    </section> 
 </body>
 <script src="idiomas.json"></script>
 <script src="index.js"></script>
 </html>
+
