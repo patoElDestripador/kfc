@@ -114,27 +114,22 @@ function cambiarColor(){
 }
 
 function cambiarIdioma(){
-    console.log("entro aki camb idioma ",document.getElementById("idioma").value)
     document.getElementById("fila1").innerHTML = ""
     document.getElementById("fila2").innerHTML = ""
     switch (parseInt(document.getElementById("idioma").value)) {
         case 1:
-            console.log("entro a ingles",ingles.menu.burgers)
             lenguajeActual = ingles.menu.burgers
             generarCards(lenguajeActual);
             break;
             case 0:
-            console.log("entro a espñaol",espanol.menu.burgers)
             lenguajeActual = espanol.menu.burgers
             generarCards(lenguajeActual);
             break;
             case 3:
-            console.log("entro a fr",frances.menu.burgers)
             lenguajeActual = frances.menu.burgers
             generarCards(lenguajeActual);
             break;
             case 4:
-            console.log("entro a jp",japones.menu.burgers)
             lenguajeActual = japones.menu.burgers
             generarCards(lenguajeActual);
             break;
